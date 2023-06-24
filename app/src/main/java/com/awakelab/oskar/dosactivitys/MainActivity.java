@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
-
     int img1 = R.drawable.baseline_downhill_skiing_24;
     int img2 = R.drawable.baseline_drive_eta_24;
     int img3 = R.drawable.baseline_email_24;
@@ -26,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         ImageButton btn2 = findViewById(R.id.imageButton2);
         ImageButton btn3 = findViewById(R.id.imageButton3);
         ImageButton btn4 = findViewById(R.id.imageButton4);
-
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
